@@ -1,3 +1,496 @@
-<h2 id="title">Welcome to Ember.js</h2>
-
-{{outlet}}
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-responsive">
+        <span class="sr-only"> Toggle navigation</span>
+        <span class="icon-bar" />
+        <span class="icon-bar" />
+        <span class="icon-bar" />
+      </button>
+      <a class="navbar-brand page-scroll" href="#page-top">
+        <img src="/assets/images/logo.png" class="img-responsive" alt="Logo" />
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-responsive">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a class="page-scroll" href="#page-top" />
+        </li>
+        <li>
+          <a class="page-scroll" data-toggle="collapse" data-target=".navbar-collapse" href="#about">About</a>
+        </li>
+        <li>
+          <a class="page-scroll" data-toggle="collapse" data-target=".navbar-collapse" href="#process">Process</a>
+        </li>
+        <li>
+          <a class="page-scroll" data-toggle="collapse" data-target=".navbar-collapse" href="#work">Pricing</a>
+        </li>
+        <li>
+          <a class="page-scroll" data-toggle="collapse" data-target=".navbar-collapse" href="#pricing">Sign Up</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#contact">Log In</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<header class="video" ref="headerVideo">
+  <div class="overlay"></div>
+  <div class="intro-content">
+    <img src="/assets/images/profile.png" class="img-responsive img-centered" alt="Balanced Gains Logo" />
+    <div class="brand-name">Balanced Gains</div>
+    <hr class="colored" />
+    <div class="brand-name-subtext">Offset capital gains with realized losses</div>
+  </div>
+  <div class="scroll-down page-scroll">
+    <a class="btn page-scroll" href="#about">
+      <i class="fa fa-angle-down"></i>
+    </a>
+  </div>
+</header>
+<section id="about">
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class="col-lg-12 wow fadeIn">
+        <h1>A Theme for Creatives &amp; Agencies</h1>
+        <p>Vitality is the perfect theme for a freelance professional or an agency.</p>
+        <hr class="colored" />
+      </div>
+    </div>
+    <div class="row text-center content-row">
+      <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".2s">
+        <div class="about-content">
+          <i class="fa fa-eye fa-4x"></i>
+          <h3>Retina Ready</h3>
+          <p>This theme includes the retina.js plugin for easy retina image support so your images and graphics will look great on mobile devices!</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".4s">
+        <div class="about-content">
+          <i class="fa fa-edit fa-4x"></i>
+          <h3>Easy to Edit</h3>
+          <p>Vitality is built using Bootstrap 3, and is easy to edit and customize. LESS files are included as well for deeper customization.</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".6s">
+        <div class="about-content">
+          <i class="fa fa-tablet fa-4x"></i>
+          <h3>Responsive</h3>
+          <p>When building this theme, we've paid close attention to how it looks on various screen sizes. Try it out on a phone or tablet!</p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay=".8s">
+        <div class="about-content">
+          <i class="fa fa-heart fa-4x"></i>
+          <h3>Built with Love</h3>
+          <p>All of our themes are crafted with care, and we strive to make your experience as one of our customers the best as possible.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<aside class="cta-quote" style={divStlye}>
+  <div class="container wow fadeIn">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        <span class="quote">Good <span class="text-primary">design</span> is finding that perfect balance between the way something <span class="text-primary">looks</span> and how it <span class="text-primary">functions</span>.</span>
+        <hr class="colored" />
+        <a class="btn btn-outline-light page-scroll" href="#contact">Let's Find It</a>
+      </div>
+    </div>
+  </div>
+</aside>
+<section id="process" class="services">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-lg-12 wow fadeIn">
+        <h2>Our Process</h2>
+        <hr class="colored" />
+        <p>Here is an overview of how we approach each new project.</p>
+      </div>
+    </div>
+    <div class="row content-row">
+      <div class="col-md-4 wow fadeIn" data-wow-delay=".2s">
+        <div class="media">
+          <div class="pull-left">
+            <i class="fa fa-clipboard"></i>
+          </div>
+          <div class="media-body">
+            <h3 class="media-heading">Plan</h3>
+            <ul>
+              <li>Client interview</li>
+              <li>Gather consumer data</li>
+              <li>Create content strategy</li>
+              <li>Analyze research</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 wow fadeIn" data-wow-delay=".4s">
+        <div class="media">
+          <div class="pull-left">
+            <i class="fa fa-pencil"></i>
+          </div>
+          <div class="media-body">
+            <h3 class="media-heading">Create</h3>
+            <ul>
+              <li>Build wireframe</li>
+              <li>Gather client feedback</li>
+              <li>Code development</li>
+              <li>Marketing review</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 wow fadeIn" data-wow-delay=".6s">
+        <div class="media">
+          <div class="pull-left">
+            <i class="fa fa-rocket"></i>
+          </div>
+          <div class="media-body">
+            <h3 class="media-heading">Launch</h3>
+            <ul>
+              <li>Deploy website</li>
+              <li>Market product launch</li>
+              <li>Collect UX data</li>
+              <li>Quarterly maintenence</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="work" class="bg-gray">
+  <div class="container text-center wow fadeIn">
+    <h2>Our Work</h2>
+    <hr class="colored" />
+    <p>Examples of our work which represent our design and marketing capabilities.</p>
+  </div>
+</section>
+<section>
+  <div class="container text-center wow fadeIn">
+    <h2>Portfolio</h2>
+    <hr class="colored" />
+    <p>Here are some other projects that Ive worked on.</p>
+    <div class="row content-row">
+      <div class="col-lg-12">
+        <div class="portfolio-filter">
+          <ul id="filters" class="clearfix">
+            <li>
+              <span class="filter active" data-filter="identity graphic logo web">All</span>
+            </li>
+            <li>
+              <span class="filter" data-filter="identity">Identity</span>
+            </li>
+            <li>
+              <span class="filter" data-filter="graphic">Graphic</span>
+            </li>
+            <li>
+              <span class="filter" data-filter="web">Web</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div id="portfoliolist">
+          <div class="portfolio identity" data-cat="identity" href="#portfolioModal1" data-toggle="modal">
+            <div class="portfolio-wrapper">
+              <img src="" alt=""/>
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">Generic Inc.</a>
+                  <span class="text-category">Brand Identity</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio web" data-cat="web" href="#portfolioModal2" data-toggle="modal">
+            <div class="portfolio-wrapper">
+              <img src="" alt=""/>
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">Brands</a>
+                  <span class="text-category">Web Development</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio graphic" data-cat="graphic" href="#portfolioModal3" data-toggle="modal">
+            <div class="portfolio-wrapper">
+              <img src="" alt=""/>
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">Excellence</a>
+                  <span class="text-category">Poster Design</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio web" data-cat="web" href="#portfolioModal4" data-toggle="modal">
+            <div class="portfolio-wrapper">
+              <img src="" alt=""/>
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">YouTV</a>
+                  <span class="text-category">Web Development</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio graphic" data-cat="graphic" href="#portfolioModal1" data-toggle="modal">
+            <div class="portfolio-wrapper">
+              <img src="" alt=""/>
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">Office Supplies</a>
+                  <span class="text-category">Graphic Design</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio web" data-cat="web" href="#portfolioModal2" data-toggle="modal">
+            <div class="portfolio-wrapper">
+              <img src="" alt=""/>
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">Fooder</a>
+                  <span class="text-category">Mobile App</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio graphic" data-cat="graphic" href="#portfolioModal3" data-toggle="modal">
+            <div class="portfolio-wrapper">
+              <img src="" alt=""/>
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">Mountain Tea</a>
+                  <span class="text-category">Graphic Design</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio graphic" data-cat="graphic" href="#portfolioModal4" data-toggle="modal">
+            <div class="portfolio-wrapper">
+              <img src="" alt=""/>
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">Checkmark</a>
+                  <span class="text-category">Graphic Design</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio identity" data-cat="identity" href="#portfolioModal1" data-toggle="modal">
+            <div class="portfolio-wrapper">
+              <img src="" alt=""/>
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">Demish</a>
+                  <span class="text-category">Brand Identity</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio web" data-cat="web" href="#portfolioModal2" data-toggle="modal">
+            <div class="portfolio-wrapper">
+              <img src="" alt=""/>
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">OneRepublic</a>
+                  <span class="text-category">Web Development</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio graphic" data-cat="graphic" href="#portfolioModal3" data-toggle="modal">
+            <div class="portfolio-wrapper">
+              <img src="" alt=""/>
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">Postable</a>
+                  <span class="text-category">Graphic Design</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio identity" data-cat="identity" href="#portfolioModal4" data-toggle="modal">
+            <div class="portfolio-wrapper">
+              <img src="" alt=""/>
+              <div class="caption">
+                <div class="caption-text">
+                  <a class="text-title">Simpli Nota</a>
+                  <span class="text-category">Brand Identity</span>
+                </div>
+                <div class="caption-bg"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="testimonials bg-gray">
+  <div class="container wow fadeIn">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1">
+        <div class="testimonials-carousel">
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-12">
+                <p class="lead">"Working with Vitality was both a valuable and rewarding experience."</p>
+                <hr class="colored" />
+                <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, temporibus, laborum, dignissimos doloremque corporis alias nostrum recusandae culpa id quisquam harum impedit sed sunt non obcaecati vero ipsam aut fugit?</p>
+                <div class="testimonial-info">
+                  <div class="testimonial-img">
+                    <img src="" class="img-circle img-responsive" alt=""/>
+                  </div>
+                  <div class="testimonial-author">
+                    <span class="name">Jim Walker</span>
+                    <p class="small">CEO of GeneriCorp</p>
+                    <div class="stars">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="row">
+              <div class="col-lg-12">
+                <p class="lead">"Working with Vitality was both a valuable and rewarding experience."</p>
+                <hr class="colored" />
+                <p class="quote">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, temporibus, laborum, dignissimos doloremque corporis alias nostrum recusandae culpa id quisquam harum impedit sed sunt non obcaecati vero ipsam aut fugit?</p>
+                <div class="testimonial-info">
+                  <div class="testimonial-img">
+                    <img src="" class="img-circle img-responsive" alt=""/>
+                  </div>
+                  <div class="testimonial-author">
+                    <span class="name">Jim Walker</span>
+                    <p class="small">CEO of GeneriCorp</p>
+                    <div class="stars">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="contact">
+  <div class="container wow fadeIn">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Contact Us</h2>
+        <hr class="colored" />
+        <p>Please tell us about your next project and we will let you know what we can do to help you.</p>
+      </div>
+    </div>
+    <div class="row content-row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <form name="sentMessage" id="contactForm" noValidate>
+          <div class="row control-group">
+            <div class="form-group col-xs-12 floating-label-form-group controls">
+              <label>Name</label>
+              <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name."/>
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="row control-group">
+            <div class="form-group col-xs-12 floating-label-form-group controls">
+              <label>Email Address</label>
+              <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address."/>
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="row control-group">
+            <div class="form-group col-xs-12 floating-label-form-group controls">
+              <label>Phone Number</label>
+              <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number."/>
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="row control-group">
+            <div class="form-group col-xs-12 floating-label-form-group controls">
+              <label>Message</label>
+              <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <br/>
+          <div id="success"></div>
+          <div class="row">
+            <div class="form-group col-xs-12">
+              <button type="submit" class="btn btn-outline-dark">Send</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-md-4 contact-details">
+        <h4><i class="fa fa-phone"></i> Call</h4>
+        <p>415-123-4567</p>
+      </div>
+      <div class="col-md-4 contact-details">
+        <h4><i class="fa fa-map-marker"></i> Visit</h4>
+        <p>550 Battery St <br/>San Francisco, CA 94111</p>
+      </div>
+      <div class="col-md-4 contact-details">
+        <h4><i class="fa fa-envelope"></i> Email</h4>
+        <p><a href="mailto:mail@example.com">support@balancedgains.com</a>
+        </p>
+      </div>
+    </div>
+    <div class="row social">
+      <div class="col-lg-12">
+        <ul class="list-inline">
+          <li><a href="//www.facebook.com"><i class="fa fa-facebook fa-fw fa-2x"></i></a>
+          </li>
+          <li><a href="//twitter.com"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
+          </li>
+          <li><a href="//www.linkedin.com"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row copyright">
+      <div class="col-lg-12">
+        <p class="small">&copy; 2015 Balanced Gains</p>
+      </div>
+    </div>
+  </div>
+</footer>
