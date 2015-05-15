@@ -1,7 +1,7 @@
 {
   "name": "balanced-gains",
-  "version": "0.0.0",
-  "description": "Small description for balanced-gains goes here",
+  "version": "0.0.1",
+  "description": "Offset capital gains with realized losses",
   "private": true,
   "directories": {
     "doc": "doc",
@@ -16,7 +16,7 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Ellis Berner",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.2",
