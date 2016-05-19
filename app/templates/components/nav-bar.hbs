@@ -1,0 +1,37 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" {{action "toggle"}}>
+        <span class="sr-only"> Toggle navigation</span>
+        <span class="icon-bar" />
+        <span class="icon-bar" />
+        <span class="icon-bar" />
+      </button>
+      <a class="navbar-brand page-scroll" href="#page-top">
+        <img src="/assets/images/logo.png" class="img-responsive" alt="Logo" />
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-responsive">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden">
+          <a class="page-scroll" href="#page-top" />
+        </li>
+        <li>
+          <a class="page-scroll" href="#about" {{action "toggle" preventDefault=false}}>About</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#process" {{action "toggle" preventDefault=false}}>Process</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#work" {{action "toggle" preventDefault=false}}>Pricing</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#pricing" {{action "toggle" preventDefault=false}}>Sign Up</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#contact" {{action "toggle" preventDefault=false}}>Log In</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
