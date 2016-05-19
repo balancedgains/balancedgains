@@ -358,13 +358,9 @@ header .scroll-down .btn:hover {
     background-attachment: fixed;
   }
 }
-header.video .overlay {
-  position: absolute;
-  height: 100%;
+header.video video {
+  height: auto;
   width: 100%;
-  background: #000;
-  z-index: 998;
-  opacity: 0;
 }
 header.video .intro-content {
   z-index: 999;
